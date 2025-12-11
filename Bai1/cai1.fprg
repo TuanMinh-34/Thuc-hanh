@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="b&#225;o c&#225;o"/>
+        <attribute name="authors" value="ntm43"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-03 09:28:28 CH"/>
+        <attribute name="created" value="bnRtNDM7VFVBTk1JTkg7MjAyNS0xMi0wMzswODozNDo0OSBDSDsyMzE5"/>
+        <attribute name="edited" value="bnRtNDM7VFVBTk1JTkg7MjAyNS0xMi0wMzswOToyODoyOCBDSDsxOzI0Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p b&#225;n k&#237;nh &#273;&#432;&#7901;ng tr&#242;n&quot;" newline="True"/>
+            <input variable="x"/>
+            <declare name="radius" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="PI * x * x"/>
+            <output expression="&quot;sv Nguy&#7877;n Tu&#7845;n Minh&quot;" newline="True"/>
+            <output expression="&quot;245752021610168&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="circle" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
